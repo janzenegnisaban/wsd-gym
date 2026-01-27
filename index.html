@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WSD GYM | Olongapo City</title>
+  <link rel="icon" href="logo%202.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="landing-page">
+  <header class="header">
+    <a href="index.html" class="logo-link">
+      <img src="logo%202.png" alt="WSD GYM" class="logo">
+    </a>
+    <button class="nav-toggle" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="membership.html" class="nav-link">Membership</a>
+      <a href="locations.html" class="nav-link">Locations / Schedule</a>
+      <a href="promo.html" class="nav-link">New / Promo / Events</a>
+      <a href="contacts.html" class="nav-link">Contacts</a>
+      <a href="video.html" class="nav-link">Video</a>
+      <a href="invest.html" class="nav-link">Invest / Franchise</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HOME / LANDING PAGE -->
+    <section id="home" class="section hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <div class="hero-tagline-section">
+          <h2 class="hero-gym-name">WSD GYM</h2>
+          <p class="hero-established">Est. 2006</p>
+          <h1 class="hero-title">You don't find<br><span class="hero-title-accent">willpower</span><br>you create it</h1>
+        </div>
+        <p class="hero-sub">38 Rizal St. Purok 2 Kalapati New Cabalan<br>Olongapo City, Olongapo, Philippines, 2200</p>
+        <div class="hero-actions">
+          <a href="membership.html" class="btn btn-primary">View Membership</a>
+          <a href="locations.html" class="btn btn-secondary">View Schedule</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Maintenance Notice - Below Tagline -->
+    <div class="maintenance-notice">
+      <div class="maintenance-content">
+        <div class="maintenance-badge">⚠️ IMPORTANT NOTICE</div>
+        <h3 class="maintenance-title">Temporary Closure for Maintenance</h3>
+        <div class="maintenance-image">
+          <img src="maintenance.jpg" alt="WSD GYM Maintenance Notice" class="maintenance-img">
+        </div>
+        <div class="maintenance-details">
+          <p class="maintenance-text"><strong>Heads up, WSD Fam! 👊</strong></p>
+          <p class="maintenance-text">WSD GYM will be temporarily <strong>CLOSED</strong> as we repaint and do some maintenance 🛠️</p>
+          <p class="maintenance-text">We're making the gym better, cleaner, and stronger—just like our members 💪🔥</p>
+          <div class="maintenance-dates">
+            <div class="maintenance-date-item">
+              <span class="date-label">📅 Closed on:</span>
+              <span class="date-value">JAN 26</span>
+            </div>
+            <div class="maintenance-date-item">
+              <span class="date-label">✅ We'll be back on:</span>
+              <span class="date-value reopen">FEB 2</span>
+            </div>
+          </div>
+          <p class="maintenance-note">All enrolled members' expiration dates will be adjusted accordingly to cover the days of temporary closure.</p>
+          <p class="maintenance-thanks">Thanks for understanding. See you soon and let's get back to grinding! 💪</p>
+          <p class="maintenance-tags">#WSDGYM #GymUpgrade #StrongerTogether</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Image Gallery Carousel Section -->
+    <section class="gallery-section reveal-section">
+      <div class="container">
+        <h2 class="gallery-title">Experience WSD GYM</h2>
+        <p class="gallery-subtitle">See what makes us different. State-of-the-art facilities, expert trainers, and a community that supports your fitness journey.</p>
+        
+        <div class="carousel-container">
+          <div class="carousel-wrapper">
+            <div class="carousel-track" id="carouselTrack">
+              <div class="carousel-slide">
+                <img src="gym%20membership.jpg" alt="WSD GYM Membership" class="carousel-img">
+                <div class="carousel-overlay">
+                  <h3>Membership Plans</h3>
+                  <p>Flexible options for every fitness goal</p>
+                </div>
+              </div>
+              <div class="carousel-slide">
+                <img src="tabata%20membership.jpg" alt="WSD GYM Tabata Program" class="carousel-img">
+                <div class="carousel-overlay">
+                  <h3>Tabata Fitness</h3>
+                  <p>High-intensity training programs</p>
+                </div>
+              </div>
+              <div class="carousel-slide">
+                <img src="promo.jpg" alt="WSD GYM Promotions" class="carousel-img">
+                <div class="carousel-overlay">
+                  <h3>Special Promos</h3>
+                  <p>Exclusive offers and deals</p>
+                </div>
+              </div>
+              <div class="carousel-slide">
+                <img src="operating%20hours.jpg" alt="WSD GYM Operating Hours" class="carousel-img">
+                <div class="carousel-overlay">
+                  <h3>Operating Hours</h3>
+                  <p>Monday - Friday: 8:30 AM - 9:00 PM</p>
+                </div>
+              </div>
+              <div class="carousel-slide">
+                <img src="logo.jpg" alt="WSD GYM Logo" class="carousel-img">
+                <div class="carousel-overlay">
+                  <h3>WSD GYM</h3>
+                  <p>Train where strength begins</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Carousel Navigation -->
+          <button class="carousel-btn carousel-prev" aria-label="Previous slide">‹</button>
+          <button class="carousel-btn carousel-next" aria-label="Next slide">›</button>
+          
+          <!-- Carousel Indicators -->
+          <div class="carousel-indicators" id="carouselIndicators">
+            <button class="carousel-indicator active" data-slide="0" aria-label="Go to slide 1"></button>
+            <button class="carousel-indicator" data-slide="1" aria-label="Go to slide 2"></button>
+            <button class="carousel-indicator" data-slide="2" aria-label="Go to slide 3"></button>
+            <button class="carousel-indicator" data-slide="3" aria-label="Go to slide 4"></button>
+            <button class="carousel-indicator" data-slide="4" aria-label="Go to slide 5"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Info Section -->
+    <section class="quick-info-section reveal-section">
+      <div class="container">
+        <div class="quick-info-grid">
+          <div class="quick-info-card">
+            <div class="quick-info-icon">💪</div>
+            <h3>Modern Equipment</h3>
+            <p>State-of-the-art fitness equipment for all your training needs</p>
+          </div>
+          <div class="quick-info-card">
+            <div class="quick-info-icon">👥</div>
+            <h3>Expert Trainers</h3>
+            <p>Professional guidance to help you reach your fitness goals</p>
+          </div>
+          <div class="quick-info-card">
+            <div class="quick-info-icon">🏋️</div>
+            <h3>Tabata Programs</h3>
+            <p>High-intensity interval training for maximum results</p>
+          </div>
+          <div class="quick-info-card">
+            <div class="quick-info-icon">🎯</div>
+            <h3>Flexible Plans</h3>
+            <p>Membership options that fit your schedule and budget</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section footer-brand">
+          <img src="logo%202.png" alt="WSD GYM" class="footer-logo">
+          <h3 class="footer-gym-name">WSD GYM</h3>
+          <p class="footer-tagline">Train where strength begins</p>
+        </div>
+        
+        <div class="footer-section footer-links">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="membership.html">Membership</a></li>
+            <li><a href="locations.html">Locations / Schedule</a></li>
+            <li><a href="promo.html">New / Promo / Events</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="video.html">Video</a></li>
+            <li><a href="invest.html">Invest / Franchise</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section footer-contact">
+          <h4 class="footer-heading">Contact Us</h4>
+          <div class="footer-contact-item">
+            <span class="footer-icon">📍</span>
+            <p>38 Rizal St. Purok 2 Kalapati New Cabalan<br>Olongapo City, Olongapo, Philippines, 2200</p>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-icon">📞</span>
+            <p><a href="tel:+639666926421">0966 692 6421</a></p>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-icon">✉️</span>
+            <p><a href="mailto:wirogurensatomigo@gmail.com">wirogurensatomigo@gmail.com</a></p>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-icon">💬</span>
+            <p><a href="https://m.me/WSDGYM" target="_blank" rel="noopener">Facebook Messenger</a></p>
+          </div>
+          <div class="footer-contact-item">
+            <span class="footer-icon">🕐</span>
+            <p>Monday - Friday: 8:30 AM - 9:00 PM<br>Sunday: CLOSED</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p>&copy; 2026 WSD GYM. All rights reserved.</p>
+        </div>
+        <div class="footer-dev">
+          <p>Powered by <a href="https://janzencodes.space" target="_blank" rel="noopener">janzencodes.space</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
